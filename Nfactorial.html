@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ПЛАНЕТЫ ЗВЕЗДНЫХ ВОИН</title>
+    <style>
+      body {
+        background-image: url("https://fs.kinomania.ru/file/news_text/0/53/05311655a15b75fab86956663e1819cd.jpeg");
+        background-size: cover;
+        background-attachment: fixed;
+        color: white;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        text-align: center;
+        text-shadow: 2px 2px 4px black;
+        animation: h1-animation 2s ease-in-out infinite;
+      }
+
+      @keyframes h1-animation {
+        0% {
+          text-shadow: 2px 2px 4px black;
+        }
+        50% {
+          text-shadow: 4px 4px 8px black;
+        }
+        100% {
+          text-shadow: 2px 2px 4px black;
+        }
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      a:hover {
+        color: rgb(43, 243, 176);
+      }
+
+      p {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        text-align: justify;
+        text-shadow: 1px 1px 2px black;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+      }
+
+      .planet {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px black;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        width: 300px;
+        transition: transform 0.3s ease;
+      }
+
+      .planet:hover {
+        transform: scale(1.05);
+      }
+
+      .planet img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-bottom: 10px;
+        box-shadow: 2px 2px 5px black;
+        animation: planet-animation 2s ease-in-out infinite;
+      }
+
+      @keyframes planet-animation {
+        0% {
+          box-shadow: 2px 2px 5px black;
+        }
+        50% {
+          box-shadow: 4px 4px 10px black;
+        }
+        100% {
+          box-shadow: 2px 2px 5px black;
+        }
+      }
+
+      .planet h2 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+      }
+
+      .planet p {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+        line-height: 1.5;
+      }
+
+      .planet a {
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        transition: background-color 0.3s ease;
+      }
+
+      .planet a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ПЛАНЕТЫ ЗВЕЗДНЫХ ВОИН</h1>
+
+    <div class="container">
+      <div class="planet">
+        <img
+          src="https://static.wikia.nocookie.net/rustarwars/images/7/7e/Tatooine_EotECR.png/revision/latest?cb=20180110135447"
+          alt="Татуин"
+        />
+        <h2>Татуин</h2>
+        <p>
+          Татуин — пустынная планета, населенная людьми, Джавойцами и другими
+          видами инопланетян. Она известна своими двойными закатами.
+        </p>
+        <a href="tatuin.html">Узнать больше</a>
+      </div>
+
+      <div class="planet">
+        <img
+          src="https://static.wikia.nocookie.net/rustarwars/images/1/16/Coruscant-EotE.jpg/revision/latest?cb=20240118071530"
+          alt="Корусант"
+        />
+        <h2>Корусант</h2>
+        <p>
+          Корусант — многоуровневый город, столица Галактической Республики.
+          Здесь расположены Сенат и множество культурных и административных
+          центров.
+        </p>
+        <a href="Korusant.html">Узнать больше</a>
+      </div>
+
+      <div class="planet">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/uk/thumb/0/06/PlanetNaboo.png/300px-PlanetNaboo.png"
+          alt="Набу"
+        />
+        <h2>Набу</h2>
+        <p>
+          Набу — планета с богатой флорой и фауной, известная своими красивыми
+          ландшафтами и подводными городами. Здесь расположена резиденция
+          королевы Амидалы.
+        </p>
+        <a href="Nabu.html">Узнать больше</a>
+      </div>
+
+      <div class="planet">
+        <img
+          src="https://static.wikia.nocookie.net/rustarwars/images/4/4a/Alderaan.jpg/revision/latest?cb=20120529135204"
+          alt="Альдераан"
+        />
+        <h2>Альдераан</h2>
+        <p>
+          Примером неискоренимого зла, которым была Империя, обратимся к
+          разрушенным останкам Альдераана.
+        </p>
+        <a href="Alderaan.html">Узнать больше</a>
+      </div>
+
+      <div class="planet">
+        <img
+          src="https://static.wikia.nocookie.net/rustarwars/images/5/50/Endor_FFGRebellion.png/revision/latest?cb=20170529065322"
+          alt="Эндор"
+        />
+        <h2>Эндор</h2>
+        <p>
+          Лесная луна Эндор осталась бы незамеченной, если бы не решающая битва,
+          произошедшая там.
+        </p>
+        <a href="Endor.html">Узнать больше</a>
+      </div>
+
+      <div class="planet">
+        <img
+          src="https://static.wikia.nocookie.net/swtor/images/d/d1/Hoth.jpg/revision/latest?cb=20190412125340&path-prefix=ru"
+          alt="Хот"
+        />
+        <h2>Хот</h2>
+        <p>
+          Примером неискоренимого зла, которым была Империя, обратимся к
+          разрушенным останкам Альдераана.
+        </p>
+        <a href="Hot.html">Узнать больше</a>
+      </div>
+
+      <div class="planet">
+        <img
+          src="https://static.wikia.nocookie.net/rustarwars/images/5/58/Dagobah_FDNP.png/revision/latest?cb=20180110132038"
+          alt="Дагоба"
+        />
+        <h2>Дагоба</h2>
+        <p>
+          Примером неискоренимого зла, которым была Империя, обратимся к
+          разрушенным останкам Альдераана.
+        </p>
+        <a href="dogoba.html">Узнать больше</a>
+      </div>
+    </div>
+  </body>
+</html>
